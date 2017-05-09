@@ -1,4 +1,3 @@
-import javax.xml.ws.http.HTTPException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.*;
@@ -40,7 +39,7 @@ public class RepoKeywordSearcher {
         int httpResponse = httpConnection.getResponseCode();
         if (httpResponse != 200) {
             log.info("Connection failed: HTTP response code " + httpResponse);
-            throw new HTTPException(httpResponse);
+            throw new IOException("HTTP response "+httpResponse);
         }
         log.info("Connection accepted, server said OK");
         // files and lines
