@@ -4,6 +4,7 @@ import java.util.*;
 import java.util.logging.Logger;
 import java.net.HttpURLConnection;
 import java.util.zip.*;
+
 /*
 @author Andreas Denger
 Requires Java 8
@@ -39,7 +40,7 @@ public class RepoKeywordSearcher {
         int httpResponse = httpConnection.getResponseCode();
         if (httpResponse != 200) {
             log.info("Connection failed: HTTP response code " + httpResponse);
-            throw new IOException("HTTP response "+httpResponse);
+            throw new IOException("HTTP response " + httpResponse);
         }
         log.info("Connection accepted, server said OK");
         // files and lines
