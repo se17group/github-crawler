@@ -9,7 +9,7 @@ import org.jsoup.select.Elements;
 
 public class Search {
 
-	
+	//This class provides possibility to search without using the API
 	
 	public String searchTerm;
         public Search(String search)
