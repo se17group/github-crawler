@@ -6,7 +6,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
+//Created by Karolina on 16/05/2017
 public class Search {
 
 	//This class provides possibility to search without using the API
