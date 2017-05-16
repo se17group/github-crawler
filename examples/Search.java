@@ -21,7 +21,7 @@ searchTerm=search;
 		
 		
 	
-		int num = 10;
+		
 
 		
 		String searchURL = "https://github.com/search?utf8=✓&q=platform%3A+"+ searchTerm+"ref=simplesearch";
